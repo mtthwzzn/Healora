@@ -330,6 +330,7 @@ html {
 .home-page .footer-logo a {
   width: fit-content;
   display: block;
+  text-decoration: none;
 }
 
 .home-page .footer-logo {
@@ -345,15 +346,20 @@ html {
 }
 
 .home-page .footer-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
   gap: 10px 24px;
+  list-style: none;
 }
 
 .home-page .footer-nav a {
   color: var(--iceblue);
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .home-page .footer-nav a:hover,

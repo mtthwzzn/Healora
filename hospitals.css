@@ -335,11 +335,15 @@ header .container p {
 
 footer {
   width: 100%;
+  margin: 0;
+  padding: 0;
   background: var(--navy);
 }
 
 .footer-content {
+  width: 100%;
   min-height: 170px;
+  margin: 0;
   padding: 30px clamp(24px, 5vw, 72px);
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -348,8 +352,20 @@ footer {
   color: var(--iceblue);
 }
 
+.footer-logo a {
+  width: fit-content;
+  display: block;
+  text-decoration: none;
+}
+
+.footer-logo {
+  position: relative;
+  width: fit-content;
+}
+
 .footer-logo img {
   height: 54px;
+  width: auto;
   display: block;
   filter: brightness(0) invert(1);
 }
