@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a Doctor - Healora</title>
+  <link rel="icon" type="image/svg+xml" href="Icons/ICON.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="doctors.css">
+</head>
+
+<body class="interior-page">
+
+  <header>
+    <div class="container">
+      <p>For Medical Emergencies, Call <strong>911</strong> Immediately!</p>
+    </div>
+    <div class="header-main">
+      <a class="logo" href="home.html" aria-label="Home">
+        <img src="Icons/LOGO 2.svg" alt="Healora Logo">
+      </a>
+
+      <div class="header-nav">
+        <ul>
+          <li><a href="hospitals.html">Find a Hospital</a></li>
+          <li><a href="doctors.html" class="active-link">Find a Doctor</a></li>
+          <li><a href="services.html">Medical Services</a></li>
+          <li><a href="blood.html">Donate Blood</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+
+      <div class="header-actions">
+        <a href="doctors.html#doctor-list" class="icon-button" aria-label="Search">
+          <img src="Icons/search.svg" alt="" aria-hidden="true">
+        </a>
+        <a href="home.html" class="icon-button profile-button" aria-label="User profile">
+          <img src="Icons/user.svg" alt="" aria-hidden="true">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="content-wrapper" id="doctor-list">
+      <div class="section-header">
+        <div>
+          <h2>Available Doctors & Specialists</h2>
+        </div>
+        <div class="filter-pills">
+          <span class="filter-pill active">Select Specialty</span>
+        </div>
+      </div>
+
+      <div class="doctor-grid">
+
+        <!-- Doctor 1 -->
+        <article class="doctor-card" id="cardiology">
+          <div class="doctor-photo">
+            <img src="Doctors/Cardiologist_.jpg" alt="Dr. Rafael M. Mendoza">
+            <span class="status-pill">Accepting Patients</span>
+          </div>
+          <div class="doctor-info">
+            <span class="doctor-specialty">Cardiologist • Adult Interventional Cardiology</span>
+            <h3>Dr. Rafael M. Mendoza, MD, FPCP</h3>
+            <ul class="doctor-details">
+              <li><strong>Hospital:</strong> Mary Mediatrix Medical Center, Lipa</li>
+              <li><strong>Clinic Room:</strong> MAB Room 304</li>
+              <li><strong>Schedule:</strong> Mon, Wed, Fri • 9:00 AM – 2:00 PM</li>
+            </ul>
+            <div class="doctor-contact-box">
+              <div class="doctor-phone">Contact: +63 917 542 8810</div>
+              <a href="tel:+639175428810" class="btn-primary">Contact Clinic</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Doctor 2 -->
+        <article class="doctor-card" id="pediatrics">
+          <div class="doctor-photo">
+            <img src="Doctors/Pediatrician_.jpg" alt="Dr. Clarissa B. Santos">
+            <span class="status-pill">Accepting Patients</span>
+          </div>
+          <div class="doctor-info">
+            <span class="doctor-specialty">Pediatrician • Child & Adolescent Health</span>
+            <h3>Dr. Clarissa B. Santos, MD, DPPS</h3>
+            <ul class="doctor-details">
+              <li><strong>Hospital:</strong> Lipa Medix Medical Center, Lipa</li>
+              <li><strong>Clinic Room:</strong> Pediatric Wing, Room 108</li>
+              <li><strong>Schedule:</strong> Tue, Thu, Sat • 10:00 AM – 4:00 PM</li>
+            </ul>
+            <div class="doctor-contact-box">
+              <div class="doctor-phone">Contact: +63 918 630 1945</div>
+              <a href="tel:+639186301945" class="btn-primary">Contact Clinic</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Doctor 3 -->
+        <article class="doctor-card" id="obgyn">
+          <div class="doctor-photo">
+            <img src="Doctors/Obstetrician_.jpg" alt="Dr. Katrina L. Villanueva">
+            <span class="status-pill">Accepting Patients</span>
+          </div>
+          <div class="doctor-info">
+            <span class="doctor-specialty">Obstetrician-Gynecologist (OB-GYN)</span>
+            <h3>Dr. Katrina L. Villanueva, MD, FPOGS</h3>
+            <ul class="doctor-details">
+              <li><strong>Hospital:</strong> San Antonio Medical Center of Lipa</li>
+              <li><strong>Clinic Room:</strong> Women's Health Suite 202</li>
+              <li><strong>Schedule:</strong> Mon – Fri • 1:00 PM – 5:00 PM</li>
+            </ul>
+            <div class="doctor-contact-box">
+              <div class="doctor-phone">Contact: +63 927 814 3302</div>
+              <a href="tel:+639278143302" class="btn-primary">Contact Clinic</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Doctor 4 -->
+        <article class="doctor-card" id="internal">
+          <div class="doctor-photo">
+            <img src="Doctors/Internal_Diabetology.jpg" alt="Dr. Gregorio A. Reyes">
+            <span class="status-pill">Accepting Patients</span>
+          </div>
+          <div class="doctor-info">
+            <span class="doctor-specialty">Internal Medicine • Diabetology</span>
+            <h3>Dr. Gregorio A. Reyes, MD, FPCP</h3>
+            <ul class="doctor-details">
+              <li><strong>Hospital:</strong> Mary Mediatrix Medical Center, Lipa</li>
+              <li><strong>Clinic Room:</strong> MAB Room 215</li>
+              <li><strong>Schedule:</strong> Tue, Thu, Sat • 8:30 AM – 1:00 PM</li>
+            </ul>
+            <div class="doctor-contact-box">
+              <div class="doctor-phone">Contact: +63 917 905 4419</div>
+              <a href="tel:+639179054419" class="btn-primary">Contact Clinic</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Doctor 5 -->
+        <article class="doctor-card" id="surgery">
+          <div class="doctor-photo">
+            <img src="Doctors/Laparoscopic Surgeon_.jpg" alt="Dr. Miguelito D. Castillo">
+            <span class="status-pill">Accepting Patients</span>
+          </div>
+          <div class="doctor-info">
+            <span class="doctor-specialty">General & Laparoscopic Surgeon</span>
+            <h3>Dr. Miguelito D. Castillo, MD, FPCS</h3>
+            <ul class="doctor-details">
+              <li><strong>Hospital:</strong> Batangas Medical Center, Batangas City</li>
+              <li><strong>Clinic Room:</strong> Surgical Outpatient Dept. 4</li>
+              <li><strong>Schedule:</strong> Mon, Wed, Fri • 10:00 AM – 3:00 PM</li>
+            </ul>
+            <div class="doctor-contact-box">
+              <div class="doctor-phone">Contact: +63 920 412 7783</div>
+              <a href="tel:+639204127783" class="btn-primary">Contact Clinic</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Doctor 6 -->
+        <article class="doctor-card">
+          <div class="doctor-photo">
+            <img src="Doctors/Dermatologist_.jpg" alt="Dr. Sofia Elena R. Magpantay">
+            <span class="status-pill">Accepting Patients</span>
+          </div>
+          <div class="doctor-info">
+            <span class="doctor-specialty">Dermatologist • Clinical & Aesthetic</span>
+            <h3>Dr. Sofia Elena R. Magpantay, MD, FPDS</h3>
+            <ul class="doctor-details">
+              <li><strong>Hospital:</strong> St. Camillus de Lellis Hospital, Batangas</li>
+              <li><strong>Clinic Room:</strong> Medical Arts Room 112</li>
+              <li><strong>Schedule:</strong> Wed, Fri, Sat • 9:00 AM – 3:00 PM</li>
+            </ul>
+            <div class="doctor-contact-box">
+              <div class="doctor-phone">Contact: +63 915 788 6091</div>
+              <a href="tel:+639157886091" class="btn-primary">Contact Clinic</a>
+            </div>
+          </div>
+        </article>
+      </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <a href="home.html">
+          <img src="Icons/LOGO 2.svg" alt="Healora Logo">
+        </a>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="hospitals.html">Find a Hospital</a></li>
+          <li><a href="doctors.html">Find a Doctor</a></li>
+          <li><a href="services.html">Medical Services</a></li>
+          <li><a href="blood.html">Donate Blood</a></li>
+        </ul>
+      </div>
+      <p class="footer-copy">© 2026 Healora. All rights reserved. By Group 10.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
